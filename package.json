@@ -1,0 +1,24 @@
+{
+  "name": "dedup-async",
+  "version": "0.0.1",
+  "description": "Deduplicate concurrent promise call by resolving them together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanw1103/dedup-async.git"
+  },
+  "keywords": [
+    "dedup",
+    "async",
+	"promise"
+  ],
+  "author": "nanw1103",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanw1103/dedup-async/issues"
+  },
+  "homepage": "https://github.com/nanw1103/dedup-async#readme"
+}
