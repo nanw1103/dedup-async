@@ -1,7 +1,7 @@
 {
   "name": "dedup-async",
-  "version": "0.0.1",
-  "description": "Deduplicate concurrent promise call by resolving them together.",
+  "version": "0.0.2",
+  "description": "Deduplicate concurrent promise calls by resolving them together.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
