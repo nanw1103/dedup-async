@@ -7,18 +7,12 @@ dedup-async wraps any function that returns promise. Succeeding call to the same
 ```javascript
 const dedupa = require('dedup-async')
 
-let evil
 let n = 0
 
 function task() {
-	return new Promise((resolve, reject) => {
-		if (evil)
-			throw 'Duplicated concurrent call!'
-		evil = true
-    
+	return new Promise(resolve => {
 		setTimeout(() => {
 			console.log('Working...')
-			evil = false
 			resolve(n++)
 		}, 100)
 	})
